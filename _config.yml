@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Diodalos"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : #
+  location         : "Seoul"
   email            :
   links:
     - label: "Email"
@@ -323,3 +323,16 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# sidebar-categories
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "기반 지식"
+        url: "/fundamentals"
+      - title: "SW"
+        url:  "/SW"
+      - title: "HW"
+        url:  "/HW"
+      - title: "클라이밍"
+        url:  "/climbing"
